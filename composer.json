@@ -1,16 +1,12 @@
 {
-  "name": "roots/sage-installer",
-  "description": "Sage starter theme installer",
+  "name": "witch/caster",
+  "description": "Mage theme installer",
   "keywords": [
     "sage",
     "wordpress",
     "theme",
-    "foundation",
-    "bootstrap",
-    "bootstrap 4",
-    "bootstrap 5",
-    "tachyons",
-    "tailwindcss"
+    "tailwindcss",
+    "mage"
   ],
   "license": "MIT",
   "authors": [
@@ -23,10 +19,15 @@
       "name": "Ben Word",
       "email": "ben@benword.com",
       "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Marc Boisvert-Dupras",
+      "email": "marcboisvert.dupras@outlook.com",
+      "homepage": "https://marc.boisvertdupras.com"
     }
   ],
   "bin": [
-    "bin/sage"
+    "bin/cast"
   ],
   "autoload": {
     "psr-4": {
@@ -34,9 +35,9 @@
     }
   },
   "require": {
-    "illuminate/console": "~5.6",
-    "illuminate/filesystem": "~5.6",
-    "symfony/process": "~3.3",
+    "illuminate/console": "9.*",
+    "illuminate/filesystem": "9.*",
+    "symfony/process": "^6.0",
     "ramsey/uuid": "^3.8"
   },
   "require-dev": {
